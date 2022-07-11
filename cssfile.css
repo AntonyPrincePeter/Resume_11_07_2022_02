@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
 body{
     font-family: EB Garamond;
     font-weight: 400;
@@ -6,20 +8,20 @@ body{
 /*  */
 .header-section {
 
-    height: 50px;
+    height: 80px;
     background-color: rgba(39, 47, 207, 0.597);
     text-align: center;
     padding-top: 10px;
     color: white;
     border-radius: 3px;
-    font-family: Arial;
-    font-size: 19px;
+    font-family: EB Garamond;
+    font-size: 40px;
     
     
 }
 
 .myname {
-    font-family: Roboto, Arial;
+    font-family: EB Garamond;
     font-weight: bolder;
 }
 
@@ -39,7 +41,7 @@ body{
 }
 
 .sameclass{
-    font-size: 9px;
+    font-size: 14px;
     margin-left: 9px;
     padding-right: 10px;
     margin-top: 20px;
@@ -47,28 +49,29 @@ body{
 
 /*  */
 .summary{
-    font-size: 10px;
+    font-size: 17px;
     display: flex;
     flex-direction: row;
-        
+    
 }
 
 .summary-statement{
    margin-right: 40px;
-   margin-left: 22px ;
+   margin-left: 38px ;
    color:rgba(39, 47, 207, 0.597);
    font-weight:bolder;
    /* background-color: aqua; */
    padding-top: 1px;
-   
+   font-size: 17px;
 
 }
 
 .description-statement{
-    margin-right: 16px ;
-    margin-left: 18px ;
+    margin-right: 80px ;
+    margin-left: 45px ;
     /* color:rgba(2, 32, 42, 0.597); */
    /* font-weight:bold; */
+   font-size: 18px;
 }
 
 /*  */
@@ -79,7 +82,7 @@ body{
 /*  */
 
 .orderlist-items{
-    font-size: 10px;
+    
     display: flex;
     flex-direction: row;
     /* margin-top: 15px; */
@@ -88,12 +91,12 @@ body{
 
 .skills{
     margin-right: 40px;
-    margin-left: 25px;
+    margin-left: 38px;
     color:rgba(39, 47, 207, 0.597);
    font-weight:bolder;
    /* background-color: aqua; */
    padding-top: 1px;
-   font-size: 10px;
+   font-size: 17px;
    margin-top: -5px;
    
 
@@ -103,23 +106,22 @@ body{
     
     display: flex;
     flex-direction: row;
-    font-size:10px;
-    margin-left: 13px;
+    font-size:18px;
+    margin-left: 70px;
     margin-top: 6px;
     /* font-family: Roboto,Arial; */
     /* font-weight: bold; */
 }
 
-/*  */
 
 .heading-item{
     
     font-weight: bold;
-    font-size: 10px;
+    font-size: 17px;
     margin-top: -10px;
-    margin-left: -10px;
+    margin-left: -8px;
     margin-bottom: 5px;
-    line-height: 8px;
+    /* line-height: 10px; */
 }
 
 /*  */
@@ -127,49 +129,57 @@ body{
 .experience-summary{
     display: flex;
     flex-direction: row;
-    font-size: 10px;
+    font-size: 20px;
     margin-top: -5px;
-   
-
+    
 }
 
 .experince-heading{
    
-    margin-right: 40px;
-   margin-left: 29px ;
+    
+   margin-left: 38px ;
    color:rgba(39, 47, 207, 0.597);
    font-weight:bolder;
    /* background-color: aqua; */
    padding-top: 1px;
-
+   font-size:17px;
 }
 
 .experience-overall{
     
-    font-size: 10px;
+    font-size: 17px;
     display: flex;
     flex-direction: row;
     margin-bottom: -12px;
-    margin-left: -2px;
+    margin-left: 63px;
 }
 
 .experience1{
-    font-size: 10px;
+    font-size: 17px;
     display: flex;
     flex-direction: row;
     font-weight: bold;
-    font-size:10px;
-    margin-left: -2px;
+    
+    margin-left: 63px;
     margin-bottom: -15px;
 }
 
 
 .experience1-info{
-    font-size: 10px;
+    font-size: 17px;
     display: flex;
     flex-direction: row;
     margin-bottom: -15px;
-    margin-left: -2px;
+    margin-left: 63px;
+}
+
+.experience1-more-info{
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -15px;
+    margin-left: 63px;
+    margin-right: 100px;
 }
 
 /*  */
@@ -177,38 +187,40 @@ body{
 .training{
     direction: flex;
     flex-direction: row;
-    font-size: 10px;
-   margin-top: -7px;
+    font-size: 17px;
+    margin-top: -7px;
 }
 
 .external-Training{
     margin-right: 40px;
-    margin-left: 29px ;
+    margin-left: 38px ;
     /* margin-top:-8px; */
     color:rgba(39, 47, 207, 0.597);
     font-weight:bolder;
     /* background-color: aqua; */
     padding-top: 1px;
-    width: 20px
+    width: 20px;
+    font-size:17px;
 
 }
 
 .frontend-training-info{
     /* display: flex;
     flex-direction: row; */
-    margin-left: 13px;
-    font-size: 10px;
+    margin-left: 32px;
+    font-size: 17px;
     /* margin-top: 8px; */
+    
 }
 
 .frontEnd{
-    font-size: 10px;
+    font-size: 17px;
     /* display: flex;
     flex-direction: row; */
-    margin-top: -32px;
+    margin-top: -60px;
     font-weight: bold;
-
-    margin-left: 131px;
+    /* width: 150px; */
+    margin-left: 195px;
     margin-bottom: 10px;
     
 }
@@ -218,10 +230,10 @@ body{
     /* display: flex;
     flex-direction: row; */
     margin-top: 10px;
-    font-size:10px;
-    margin-left: 100px;
-    line-height: 12px;
-
+    font-size:18px;
+    margin-left: 170px;
+    line-height:25px;
+    margin-right: 80px;
 }
 
 
@@ -229,12 +241,12 @@ body{
 .education{
 display: flex;
 flex-direction: row;
-font-size: 10px;
+font-size: 17px;
 }
 
 .type-education{
     margin-right: 40px;
-    margin-left: 29px ;
+    margin-left: 38px ;
     color:rgba(39, 47, 207, 0.597);
     font-weight:bolder;
     padding-top: 1px;
@@ -242,16 +254,17 @@ font-size: 10px;
 }
 
 .education-list{
-    margin-top: -5px
+    margin-top: -5px;
+    margin-left:22px;
 }
 
 .UG,.PG{
-    margin-left:-15px;
+    /* margin-left:22px; */
     margin-bottom:-7px;
 
 }
 .college-info{
-    margin-left:25px;
+    margin-left:22px;
 }
 /*  */
 
